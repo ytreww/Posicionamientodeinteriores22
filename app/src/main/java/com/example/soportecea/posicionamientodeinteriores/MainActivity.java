@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         txtLabC=(TextView)findViewById(R.id.textTres);
         txtLabD=(TextView)findViewById(R.id.textDos);
         txtLabE=(TextView)findViewById(R.id.textUno);
-        btnLocalizar = ( Button) findViewById(R.id.button);
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
         mSensorManager.registerListener(this, mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD),SensorManager.SENSOR_DELAY_NORMAL);
@@ -52,22 +51,62 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                         case "A":
                             txtLabA.setTextColor(Color.WHITE);
                             txtLabA.setBackgroundColor(Color.CYAN);
+                            txtLabB.setTextColor(Color.BLACK);
+                            txtLabB.setBackgroundColor(Color.WHITE);
+                            txtLabC.setTextColor(Color.BLACK);
+                            txtLabC.setBackgroundColor(Color.WHITE);
+                            txtLabD.setTextColor(Color.BLACK);
+                            txtLabD.setBackgroundColor(Color.WHITE);
+                            txtLabE.setTextColor(Color.BLACK);
+                            txtLabE.setBackgroundColor(Color.WHITE);
                             break;
                         case "B":
                             txtLabB.setTextColor(Color.WHITE);
                             txtLabB.setBackgroundColor(Color.CYAN);
+                            txtLabA.setTextColor(Color.BLACK);
+                            txtLabA.setBackgroundColor(Color.WHITE);
+                            txtLabC.setTextColor(Color.BLACK);
+                            txtLabC.setBackgroundColor(Color.WHITE);
+                            txtLabD.setTextColor(Color.BLACK);
+                            txtLabD.setBackgroundColor(Color.WHITE);
+                            txtLabE.setTextColor(Color.BLACK);
+                            txtLabE.setBackgroundColor(Color.WHITE);
                             break;
                         case "C":
                             txtLabC.setTextColor(Color.WHITE);
                             txtLabC.setBackgroundColor(Color.CYAN);
+                            txtLabB.setTextColor(Color.BLACK);
+                            txtLabB.setBackgroundColor(Color.WHITE);
+                            txtLabA.setTextColor(Color.BLACK);
+                            txtLabA.setBackgroundColor(Color.WHITE);
+                            txtLabD.setTextColor(Color.BLACK);
+                            txtLabD.setBackgroundColor(Color.WHITE);
+                            txtLabE.setTextColor(Color.BLACK);
+                            txtLabE.setBackgroundColor(Color.WHITE);
                             break;
                         case "D":
                             txtLabD.setTextColor(Color.WHITE);
                             txtLabD.setBackgroundColor(Color.CYAN);
+                            txtLabB.setTextColor(Color.BLACK);
+                            txtLabB.setBackgroundColor(Color.WHITE);
+                            txtLabC.setTextColor(Color.BLACK);
+                            txtLabC.setBackgroundColor(Color.WHITE);
+                            txtLabA.setTextColor(Color.BLACK);
+                            txtLabA.setBackgroundColor(Color.WHITE);
+                            txtLabE.setTextColor(Color.BLACK);
+                            txtLabE.setBackgroundColor(Color.WHITE);
                             break;
                         case "E":
                             txtLabE.setTextColor(Color.WHITE);
                             txtLabE.setBackgroundColor(Color.CYAN);
+                            txtLabB.setTextColor(Color.BLACK);
+                            txtLabB.setBackgroundColor(Color.WHITE);
+                            txtLabC.setTextColor(Color.BLACK);
+                            txtLabC.setBackgroundColor(Color.WHITE);
+                            txtLabD.setTextColor(Color.BLACK);
+                            txtLabD.setBackgroundColor(Color.WHITE);
+                            txtLabA.setTextColor(Color.BLACK);
+                            txtLabA.setBackgroundColor(Color.WHITE);
                             break;
                     }
 
